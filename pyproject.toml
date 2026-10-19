@@ -1,0 +1,14 @@
+[project]
+name = "file-handle-leak-detector"
+version = "0.1.0"
+description = "Test helper that patches open and fails if file handles are left open after a block"
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
