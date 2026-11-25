@@ -1,6 +1,6 @@
 [project]
 name = "file-handle-leak-detector"
-version = "0.1.1"
+version = "0.1.2"
 description = "Test helper that patches open and fails if file handles are left open after a block"
 requires-python = ">=3.10"
 dependencies = []
